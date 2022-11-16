@@ -1,7 +1,6 @@
 package week2.day2.assignments;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -80,7 +79,10 @@ public class LeafGround_Asgn_1 {
 			System.out.println("Wrong error message is displayed");
 		}
 		
-
+		//Type your name and choose the third option
+		driver.findElement(By.xpath("//h5[text()='Type your name and choose the third option']/following-sibling::div//input")).sendKeys("nags");
+		driver.findElement(By.xpath("//li[text()='2']")).click();
+		
 	}
 
 }
