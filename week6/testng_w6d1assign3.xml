@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<parameter name="url"
+		value="https://dev123377.service-now.com/login.do?" />
+	<parameter name="uName" value="admin" />
+	<parameter name="pWord" value="Nagu1990@8285" />
+	<test thread-count="2" name="Test" parallel="true">
+		<classes>
+			<class name="week6.day1.assign3.UpdateIncident" />
+			<class name="week6.day1.assign3.CreateIncident" />
+			<class name="week6.day1.assign3.AssignIncident" />
+			<class name="week6.day1.assign3.DeleteIncident" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
