@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LeafTapsSuite" duration-ms="418027" started-at="2022-12-25T13:05:27 IST" finished-at="2022-12-25T13:12:25 IST">
+    <groups>
+    </groups>
+    <test name="LeafTapsTest" duration-ms="418027" started-at="2022-12-25T13:05:27 IST" finished-at="2022-12-25T13:12:25 IST">
+      <class name="testcases.TC02_EditLead">
+        <test-method status="PASS" signature="setFilename()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="setFilename" is-config="true" duration-ms="1" started-at="2022-12-25T13:07:26 IST" finished-at="2022-12-25T13:07:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFilename -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="beforeMethod" is-config="true" duration-ms="3516" started-at="2022-12-25T13:07:26 IST" finished-at="2022-12-25T13:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.TC02_EditLead@5f71c76a]" name="runEditLead" duration-ms="53037" started-at="2022-12-25T13:07:30 IST" data-provider="featchData" depends-on-methods="testcases.TC01_CreateLead.runCreateLead" finished-at="2022-12-25T13:08:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCSEdit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RamEdit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EzhilEdit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="afterMethod" is-config="true" duration-ms="836" started-at="2022-12-25T13:08:23 IST" finished-at="2022-12-25T13:08:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="beforeMethod" is-config="true" duration-ms="3240" started-at="2022-12-25T13:08:24 IST" finished-at="2022-12-25T13:08:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.TC02_EditLead@5f71c76a]" name="runEditLead" duration-ms="53146" started-at="2022-12-25T13:08:27 IST" data-provider="featchData" depends-on-methods="testcases.TC01_CreateLead.runCreateLead" finished-at="2022-12-25T13:09:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CTSEdit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AravindEdit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GayanEdit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="afterMethod" is-config="true" duration-ms="386" started-at="2022-12-25T13:09:20 IST" finished-at="2022-12-25T13:09:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="beforeMethod" is-config="true" duration-ms="3818" started-at="2022-12-25T13:09:20 IST" finished-at="2022-12-25T13:09:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.TC02_EditLead@5f71c76a]" name="runEditLead" duration-ms="54472" started-at="2022-12-25T13:09:24 IST" data-provider="featchData" depends-on-methods="testcases.TC01_CreateLead.runCreateLead" finished-at="2022-12-25T13:10:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGIEdit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BaluEdit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HemaEdit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="afterMethod" is-config="true" duration-ms="370" started-at="2022-12-25T13:10:19 IST" finished-at="2022-12-25T13:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="beforeMethod" is-config="true" duration-ms="3876" started-at="2022-12-25T13:10:19 IST" finished-at="2022-12-25T13:10:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.TC02_EditLead@5f71c76a]" name="runEditLead" duration-ms="58259" started-at="2022-12-25T13:10:23 IST" data-provider="featchData" depends-on-methods="testcases.TC01_CreateLead.runCreateLead" finished-at="2022-12-25T13:11:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InfoSysEdit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ChandranEdit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[KathirEdit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="afterMethod" is-config="true" duration-ms="688" started-at="2022-12-25T13:11:21 IST" finished-at="2022-12-25T13:11:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="beforeMethod" is-config="true" duration-ms="3909" started-at="2022-12-25T13:11:22 IST" finished-at="2022-12-25T13:11:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runEditLead(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testcases.TC02_EditLead@5f71c76a]" name="runEditLead" duration-ms="58700" started-at="2022-12-25T13:11:26 IST" data-provider="featchData" depends-on-methods="testcases.TC01_CreateLead.runCreateLead" finished-at="2022-12-25T13:12:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LTIEdit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DavidEdit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LoustonEdit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_EditLead@5f71c76a]" name="afterMethod" is-config="true" duration-ms="405" started-at="2022-12-25T13:12:25 IST" finished-at="2022-12-25T13:12:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC02_EditLead -->
+      <class name="testcases.TC01_CreateLead">
+        <test-method status="PASS" signature="setFilename()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="setFilename" is-config="true" duration-ms="13" started-at="2022-12-25T13:05:27 IST" finished-at="2022-12-25T13:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFilename -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="beforeMethod" is-config="true" duration-ms="11457" started-at="2022-12-25T13:05:29 IST" finished-at="2022-12-25T13:05:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC01_CreateLead@3d0f8e03]" name="runCreateLead" duration-ms="16608" started-at="2022-12-25T13:05:41 IST" data-provider="featchData" finished-at="2022-12-25T13:05:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ezhil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="afterMethod" is-config="true" duration-ms="593" started-at="2022-12-25T13:05:57 IST" finished-at="2022-12-25T13:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="beforeMethod" is-config="true" duration-ms="3932" started-at="2022-12-25T13:05:58 IST" finished-at="2022-12-25T13:06:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC01_CreateLead@3d0f8e03]" name="runCreateLead" duration-ms="16159" started-at="2022-12-25T13:06:02 IST" data-provider="featchData" finished-at="2022-12-25T13:06:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aravind]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gayan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="afterMethod" is-config="true" duration-ms="1549" started-at="2022-12-25T13:06:18 IST" finished-at="2022-12-25T13:06:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="beforeMethod" is-config="true" duration-ms="5558" started-at="2022-12-25T13:06:20 IST" finished-at="2022-12-25T13:06:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC01_CreateLead@3d0f8e03]" name="runCreateLead" duration-ms="17753" started-at="2022-12-25T13:06:25 IST" data-provider="featchData" finished-at="2022-12-25T13:06:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hema]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="afterMethod" is-config="true" duration-ms="452" started-at="2022-12-25T13:06:43 IST" finished-at="2022-12-25T13:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="beforeMethod" is-config="true" duration-ms="4029" started-at="2022-12-25T13:06:43 IST" finished-at="2022-12-25T13:06:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC01_CreateLead@3d0f8e03]" name="runCreateLead" duration-ms="18092" started-at="2022-12-25T13:06:47 IST" data-provider="featchData" finished-at="2022-12-25T13:07:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InfoSys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kathir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="afterMethod" is-config="true" duration-ms="758" started-at="2022-12-25T13:07:06 IST" finished-at="2022-12-25T13:07:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="beforeMethod" is-config="true" duration-ms="6043" started-at="2022-12-25T13:07:06 IST" finished-at="2022-12-25T13:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testcases.TC01_CreateLead@3d0f8e03]" name="runCreateLead" duration-ms="13337" started-at="2022-12-25T13:07:12 IST" data-provider="featchData" finished-at="2022-12-25T13:07:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LTI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Louston]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC01_CreateLead@3d0f8e03]" name="afterMethod" is-config="true" duration-ms="397" started-at="2022-12-25T13:07:26 IST" finished-at="2022-12-25T13:07:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC01_CreateLead -->
+      <class name="testcases.TC04_DeleteLead">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC04_DeleteLead@27fe3806]" name="beforeMethod" is-config="true" duration-ms="5177" started-at="2022-12-25T13:06:27 IST" finished-at="2022-12-25T13:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runDeleteLead()[pri:3, instance:testcases.TC04_DeleteLead@27fe3806]" name="runDeleteLead" duration-ms="40190" started-at="2022-12-25T13:06:32 IST" finished-at="2022-12-25T13:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC04_DeleteLead@27fe3806]" name="afterMethod" is-config="true" duration-ms="721" started-at="2022-12-25T13:07:12 IST" finished-at="2022-12-25T13:07:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC04_DeleteLead -->
+      <class name="testcases.TC03_DuplicateLead">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC03_DuplicateLead@1d7acb34]" name="beforeMethod" is-config="true" duration-ms="13298" started-at="2022-12-25T13:05:27 IST" finished-at="2022-12-25T13:05:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runDuplicateLead()[pri:2, instance:testcases.TC03_DuplicateLead@1d7acb34]" name="runDuplicateLead" duration-ms="45983" started-at="2022-12-25T13:05:40 IST" finished-at="2022-12-25T13:06:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDuplicateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC03_DuplicateLead@1d7acb34]" name="afterMethod" is-config="true" duration-ms="697" started-at="2022-12-25T13:06:26 IST" finished-at="2022-12-25T13:06:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC03_DuplicateLead -->
+    </test> <!-- LeafTapsTest -->
+  </suite> <!-- LeafTapsSuite -->
+</testng-results>
